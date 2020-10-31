@@ -18,7 +18,7 @@
 
         function Default_msg(){
             echo('<div class="back"></div>');
-            echo('<img class="resumé" src="res/resumé.jpg"></img>');
+            echo('<img class="resumé" src="res/resume.jpg"></img>');
             echo('
                 <center>
                     <div class="title">
