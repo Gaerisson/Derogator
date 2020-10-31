@@ -27,9 +27,9 @@
                     <div class="main">
                         <hr>
                             <H2>Utilisation de l\'API:</H2>
-                        '."http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'].'?<b>api</b>&<b>name=<a style="color:orange">Prénom NOM</a></b>&<b>b_date=<a style="color:orange">XX/XX/XXXX (DATE NAISSANCE)</a></b>&<b>b_loc=<a style="color:orange">VILLE NAISSANCE</a></b>&<b>loc=<a style="color:orange">ADRESSE HABITATION</a></b>&<b>choice=<a style="color:orange">CHOIX (1 à 9)</a></b>&<b>fait_a=<a style="color:orange">FAIT A (VILLE)</a></b><b><a style="color:blue">&dl</a> (force le téléchargement du PDF)</b>
+                        http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'].'?<b>api</b>&<b>name=<a style="color:orange">Prénom NOM</a></b>&<b>b_date=<a style="color:orange">XX/XX/XXXX (DATE NAISSANCE)</a></b>&<b>b_loc=<a style="color:orange">VILLE NAISSANCE</a></b>&<b>loc=<a style="color:orange">ADRESSE HABITATION</a></b>&<b>choice=<a style="color:orange">CHOIX (1 à 9)</a></b>&<b>fait_a=<a style="color:orange">FAIT A (VILLE)</a></b><b><a style="color:blue">&dl</a> (force le téléchargement du PDF)</b>
                         <h3 style="color:#ff6c00">AUCUNE INFORMATION N\'EST CONSERVÉ SUR LE SERVEUR !</h3>
-                        <h4 style="color:#ff6c00">(code source dispo sur <a href=""> ce github</a>)</h4>
+                        <h4 style="color:#ff6c00">(code source dispo sur <a href="https://github.com/Gaerisson/Derogator">ce github</a>)</h4>
                         <h5>par Gaerisson</h5>
                         <hr>
                     </div>
