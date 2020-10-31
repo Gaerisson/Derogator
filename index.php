@@ -2,27 +2,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="apple-touch-icon" sizes="57x57" href="res/favicon/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="res/favicon/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="res/favicon/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="res/favicon/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="res/favicon/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="res/favicon/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="res/favicon/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="res/favicon/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="res/favicon/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192" href="res/favicon/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="res/favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="res/favicon/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="res/favicon/favicon-16x16.png">
-	<meta name="msapplication-TileImage" content="res/favicon/ms-icon-144x144.png">
-	<link rel="shortcut icon" href="res/favicon/favicon.ico" type="image/x-icon">
-
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet"> 
 
     <title>Assistant - ADD (Derogator)</title>  
-
 </head>
 <body>
     <?php
@@ -44,8 +27,8 @@
                     <div class="main">
                         <hr>
                             <H2>Utilisation de l\'API:</H2>
-                        '."http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'].'?<b>api</b>&<b>name=<a style="color:orange">Prénom NOM</a></b>&<b>b_date=<a style="color:orange">XX/XX/XXXX (DATE NAISSANCE)</a></b>&<b>b_loc=<a style="color:orange">VILLE NAISSANCE</a></b>&<b>loc=<a style="color:orange">ADRESSE HABITATION</a></b>&<b>choice=<a style="color:orange">CHOIX (1 à 9)</a></b>&<b>fait_a=<a style="color:orange">FAIT A (VILLE)</a></b><b><a style="color:blue">&dl (force le téléchargement du PDF)</a></b>
-                        <h3 style="color:#ff6c00">AUCUNES INFORMATION N\'EST CONSERVÉ SUR LE SERVEUR !</h3>
+                        '."http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'].'?<b>api</b>&<b>name=<a style="color:orange">Prénom NOM</a></b>&<b>b_date=<a style="color:orange">XX/XX/XXXX (DATE NAISSANCE)</a></b>&<b>b_loc=<a style="color:orange">VILLE NAISSANCE</a></b>&<b>loc=<a style="color:orange">ADRESSE HABITATION</a></b>&<b>choice=<a style="color:orange">CHOIX (1 à 9)</a></b>&<b>fait_a=<a style="color:orange">FAIT A (VILLE)</a></b><b><a style="color:blue">&dl</a> (force le téléchargement du PDF)</b>
+                        <h3 style="color:#ff6c00">AUCUNE INFORMATION N\'EST CONSERVÉ SUR LE SERVEUR !</h3>
                         <h4 style="color:#ff6c00">(code source dispo sur <a href=""> ce github</a>)</h4>
                         <h5>par Gaerisson</h5>
                         <hr>
